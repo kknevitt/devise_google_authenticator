@@ -1,4 +1,4 @@
-This project is no longer maintained.  
+This project is no longer maintained.
 If you have a more recent fork and you'd like us to link to it from here, please get in touch.
 
 
@@ -25,9 +25,9 @@ Install Devise:
 Setup the User or Admin model
 * rails g devise MODEL
 
-Configure your app for authorisation, edit your Controller and add this before_filter:
+Configure your app for authorisation, edit your Controller and add this before_action:
 
-* before_filter :authenticate_user!
+* before_action :authenticate_user!
 
 Make sure your "root" route is configured in config/routes.rb
 
@@ -123,7 +123,7 @@ This extension would not exist without the following other projects and associat
 
 
 == Contributing to devise_google_authenticator
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
 * Fork the project

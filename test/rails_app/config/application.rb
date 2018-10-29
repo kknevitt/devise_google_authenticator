@@ -9,8 +9,6 @@ begin
 rescue LoadError
 end
 
-PARENT_MODEL_CLASS = DEVISE_ORM == :active_record ? ActiveRecord::Base : Object
-
 require "devise"
 require "devise_google_authenticator"
 
